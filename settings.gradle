@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Elec2_act.1"
-include ':app'
+include ':Act1'
+include ':ActivitiesandLogging'
+include ':act3'
+include ':fragment'
