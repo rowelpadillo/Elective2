@@ -8,6 +8,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Elec2_act1">
         <activity
+            android:name=".Relative_layout"
+            android:exported="false" />
+        <activity
             android:name=".ResourcesandLayouts"
             android:exported="true">
             <intent-filter>
