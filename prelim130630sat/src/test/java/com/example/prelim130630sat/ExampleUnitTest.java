@@ -1,4 +1,4 @@
-package com.example.elec2_prelim_130_630;
+package com.example.prelim130630sat;
 
 import org.junit.Test;
 

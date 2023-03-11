@@ -8,7 +8,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Elec2_act1">
         <activity
-            android:name=".Prelim_130630sat"
+            android:name=".Prelim130630SAT"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

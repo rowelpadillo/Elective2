@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.elec2_prelim_130_630'
+    namespace 'com.example.prelim130630sat'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.elec2_prelim_130_630"
+        applicationId "com.example.prelim130630sat"
         minSdk 24
         targetSdk 33
         versionCode 1

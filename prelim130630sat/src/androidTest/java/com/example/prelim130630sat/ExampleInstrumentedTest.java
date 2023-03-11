@@ -1,4 +1,4 @@
-package com.example.elec2_prelim_130_630;
+package com.example.prelim130630sat;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.elec2_prelim_130_630", appContext.getPackageName());
+        assertEquals("com.example.prelim130630sat", appContext.getPackageName());
     }
 }
