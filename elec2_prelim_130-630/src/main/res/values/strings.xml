@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Elec2_Prelim_130-630</string>
+
+    <string-array name="Robots">
+        <item>Select a Robot...</item>
+        <item>Voltes V</item>
+        <item>Optimus Prime</item>
+        <item>Megatron</item>
+        <item>Daimos</item>
+        <item>Gundam Wing</item>
+        <item>Ultra Man</item>
+
+    </string-array>
+</resources>
