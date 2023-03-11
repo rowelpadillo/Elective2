@@ -23,16 +23,30 @@ public class MainActivity extends AppCompatActivity {
         firstFragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 loadFragment(new FragmentA());
             }
         });
 
+        secondFragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadFragment(new FragmentB());
+            }
+        });
     }
 
     private void loadFragment(FragmentA fragmentA) {
         FragmentManager fa = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fa.beginTransaction();
-        fragmentTransaction.replace(R.id.framelayout, fragment);
+        fragmentTransaction.replace(R.id.frame,fragmentA);
+        fragmentTransaction.commit();
+    }
+
+    private void loadFragment(FragmentB fragmentB) {
+        FragmentManager fa = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fa.beginTransaction();
+        fragmentTransaction.replace(R.id.frame,fragmentB);
         fragmentTransaction.commit();
     }
 }
