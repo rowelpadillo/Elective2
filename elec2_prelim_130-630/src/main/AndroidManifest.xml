@@ -8,10 +8,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Elec2_act1">
         <activity
-            android:name=".Relative_layout"
-            android:exported="false" />
-        <activity
-            android:name=".ResourcesandLayouts"
+            android:name=".Prelim_130630sat"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

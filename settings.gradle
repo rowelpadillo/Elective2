@@ -16,3 +16,4 @@ rootProject.name = "Elec2_act.1"
 include ':Act1'
 include ':ActivitiesandLogging'
 include ':act3'
+include ':elec2_prelim_130-630'

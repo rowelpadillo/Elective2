@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".Relative_layout">
+
+    <EditText
+        android:id="@+id/id_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/id_to"
+        android:id="@+id/id_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:minHeight="48dp" />
+    
+    <LinearLayout
+        android:layout_below="@id/id_sub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="16dp"
+            android:id="@+id/id_mess"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="Message" />
+
+        <Button
+            android:id="@+id/id_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Send" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
