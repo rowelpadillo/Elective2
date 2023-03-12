@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+array Robots
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable search
+id cats
+id dog
+id ninjas
+id pirates
+id search
+id seekBar
+id spiner
+id switch1
+id toggleButton
+id toggles
+id txt
+layout activity_prelim130630_sat
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Elec2_act1
