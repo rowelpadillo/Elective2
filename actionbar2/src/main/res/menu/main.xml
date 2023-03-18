@@ -5,13 +5,18 @@
         android:id="@+id/search"
         app:showAsAction="ifRoom"
         android:orderInCategory="101"
+        android:icon="@drawable/search"
         />
     <item android:title="Copy"
         android:id="@+id/copy"
         app:showAsAction="never"
-        android:orderInCategory="100"/>
+        android:orderInCategory="100"
+        android:icon="@drawable/copy"/>
+
     <item android:title="Refresh"
         android:id="@+id/refresh"
         android:orderInCategory="101"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"
+        />
 </menu>
