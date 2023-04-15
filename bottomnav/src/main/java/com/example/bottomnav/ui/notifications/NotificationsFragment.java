@@ -80,7 +80,7 @@ public class NotificationsFragment extends Fragment {
                 textview.setText(currentBatteryHealth+"= Unspecified_Failure");
             }
         }
-    }
+    };
 
     @Override
     public void onDestroyView() {
