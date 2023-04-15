@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.text_second);
 
         Intent intent = getIntent();
-        String fromMain = intent.getStringExtra("Pass_ME");
+        String fromMain = intent.getStringExtra("PASS_ME");
 
         textView.setText(fromMain);
 
