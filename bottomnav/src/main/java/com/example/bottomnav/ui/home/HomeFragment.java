@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.bottomnav.SecondActivity;
 import com.example.bottomnav.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
