@@ -1,9 +1,11 @@
 package com.example.bottomnav.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -26,6 +28,17 @@ public class HomeFragment extends Fragment {
 
         final TextView textView = binding.textHome;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final Button buttonGoToSecond = binding.buttonGotosecond;
+
+        buttonGoToSecond.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), SecondActivity.class);
+                intent.putExtra("PASS_ME", "Hi I'm from Main Activity");
+                startActivity(intent);
+            }
+        });
+
         return root;
     }
 
