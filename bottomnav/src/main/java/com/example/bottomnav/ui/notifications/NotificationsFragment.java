@@ -22,6 +22,12 @@ public class NotificationsFragment extends Fragment {
 
     private FragmentNotificationsBinding binding;
 
+    IntentFilter intentfilter;
+    int deviceHealth;
+    String currentBatteryHealth="Battery Health";
+    int batteryLevel;
+    TextView textview;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         NotificationsViewModel notificationsViewModel =
@@ -32,7 +38,7 @@ public class NotificationsFragment extends Fragment {
 
         textview = binding.textNotifications;
         final Button checkStatus = binding.buttonCheck;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textview::setText);
 
         intentfilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
 
