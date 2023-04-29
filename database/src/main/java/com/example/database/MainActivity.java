@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity", String.valueOf(age));
         Log.d("MainActivity", String.valueOf(isStudent));
 
-
         editor.remove("name");
         editor.apply();
 
