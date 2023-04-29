@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         dbHelper = new MyDatabaseHelper(this);
         dbHelper.deleteAllData();
-        dbHelper.insertData("John", 25);
+        dbHelper.insertData("Joseph", 25);
         dbHelper.insertData("Luke", 24);
         getData();
-        dbHelper.updateData(2, "Mark", 26);
+        dbHelper.updateData(2, "Rowel", 26);
         getData();
         dbHelper.deleteData(2);
 
