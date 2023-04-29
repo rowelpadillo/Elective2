@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class DBhelper extends SQLiteOpenHelper {
+public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     // Define constants for the database name and version
     private static final String DATABASE_NAME = "my_database";
@@ -27,7 +27,7 @@ public class DBhelper extends SQLiteOpenHelper {
                     COLUMN_AGE + " INTEGER);";
 
     // Implement the constructor to create the database
-    public DBhelper(Context context) {
+    public MyDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
