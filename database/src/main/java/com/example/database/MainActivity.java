@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("name", "John");
+        editor.putString("name", "Joseph");
         editor.putInt("age", 26);
         editor.putBoolean("is_student", true);
         editor.commit();
