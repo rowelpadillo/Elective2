@@ -21,11 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         dbHelper = new MyDatabaseHelper(this);
-
-
         dbHelper.deleteAllData();
-
-
         dbHelper.insertData("John", 25);
         dbHelper.insertData("Luke", 24);
 
